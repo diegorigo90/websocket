@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 @Service
 public class MessageService {
 
-    private final AtomicInteger value = new AtomicInteger(0);
+    private final AtomicInteger value = new AtomicInteger(1);
     @Autowired
     public SimpMessageSendingOperations messagingTemplate;
 
