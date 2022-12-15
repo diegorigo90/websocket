@@ -1,11 +1,9 @@
-package it.addvalue.testsocket;
+package it.addvalue.testsocket.controller;
 
+import it.addvalue.testsocket.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.stream.IntStream;
 
 /**
  * @author Add Value S.p.A. by diego.rigo

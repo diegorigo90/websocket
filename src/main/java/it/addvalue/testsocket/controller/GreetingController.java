@@ -1,5 +1,7 @@
-package it.addvalue.testsocket;
+package it.addvalue.testsocket.controller;
 
+import it.addvalue.testsocket.dto.Greeting;
+import it.addvalue.testsocket.dto.HelloMessage;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;

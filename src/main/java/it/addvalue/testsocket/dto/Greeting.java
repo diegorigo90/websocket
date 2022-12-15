@@ -1,4 +1,4 @@
-package it.addvalue.testsocket;
+package it.addvalue.testsocket.dto;
 
 /**
  * @author Add Value S.p.A. by diego.rigo

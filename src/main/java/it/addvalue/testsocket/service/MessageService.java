@@ -1,5 +1,6 @@
-package it.addvalue.testsocket;
+package it.addvalue.testsocket.service;
 
+import it.addvalue.testsocket.dto.Greeting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.scheduling.annotation.Async;
