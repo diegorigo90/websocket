@@ -32,7 +32,7 @@ public class MessageService {
         IntStream.range(0,8).forEach(i -> {
             sendMessage();
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
